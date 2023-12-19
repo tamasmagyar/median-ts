@@ -1,1 +1,1 @@
-export declare function median(numbers: number[]): number;
+export declare function median(numbers: number[]): number | null;

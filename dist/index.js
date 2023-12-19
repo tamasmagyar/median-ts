@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.median = void 0;
 function median(numbers) {
     if (!Array.isArray(numbers) || numbers.length === 0) {
-        return null; // todo
+        return null;
     }
     // Sort the array
     var sortedNumbers = numbers.slice().sort(function (a, b) { return a - b; });

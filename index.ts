@@ -1,6 +1,6 @@
-export function median(numbers: number[]) {
+export function median(numbers: number[]): number | null {
   if (!Array.isArray(numbers) || numbers.length === 0) {
-    return null; // todo
+    return null;
   }
 
   // Sort the array
